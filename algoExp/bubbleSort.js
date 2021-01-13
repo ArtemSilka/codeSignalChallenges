@@ -1,4 +1,7 @@
 function bubbleSort(array) {
+	// Space O(1)
+	// Time - best O(n) - if array already sorted
+	// Time - avg/worse O(n^2)
   let sorted = false;
 	let counter = 0;
 	
