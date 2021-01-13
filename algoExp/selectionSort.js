@@ -1,6 +1,6 @@
 function selectionSort(array) {
-    // Time O(n^2)
-    // Space O(1)
+    // time O(n^2)
+    // space O(1)
   let startIdx = 0;
 	while (startIdx < array.length - 1) {
 		let smallestIdx = startIdx;
