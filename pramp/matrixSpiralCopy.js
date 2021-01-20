@@ -1,5 +1,4 @@
 function spiralCopy(inputMatrix) {
-  // Write your code here.
 	let output = [],
 			startRow = 0,
 			endRow = inputMatrix.length - 1,
