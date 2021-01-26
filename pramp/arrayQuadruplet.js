@@ -1,9 +1,9 @@
 function findArrayQuadruplet(arr, s) {
+  // total time O(N^3), space O(1)
   if (arr.length < 4) return [];
   
-  let sorted = arr.sort();
-  // [0,1,2,3,4,5,7,9] // 8
-  //  0.1 2 3 4 5 6 7
+  let sorted = arr.sort(); //O(N⋅log(N))
+
   for (let i = 0; i < sorted.length -3; i++) {
     for (let j = i + 1; j < sorted.length - 2; j++) {
       let diff = s - (sorted[i] + sorted[j]),
@@ -20,7 +20,7 @@ function findArrayQuadruplet(arr, s) {
         }
       }
     }
-  }
+  } //O(N^3)
   
   return [];
 }
