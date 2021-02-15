@@ -1,4 +1,4 @@
-var a = "use strict";(function*(DOM,width,n,v,m)
+"use strict";(function*(DOM,width,n,v,m)
 {
   const height = 600;
   const context = DOM.context2d(width, height);
@@ -59,7 +59,3 @@ var a = "use strict";(function*(DOM,width,n,v,m)
   }
 }
 )
-
-n = 100;
-m = 12;
-v = 2;
